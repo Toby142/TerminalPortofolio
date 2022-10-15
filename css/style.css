@@ -1,0 +1,17 @@
+* {
+    /* terminal font family */
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: medium;
+}
+
+.command-line {
+    display: flex;
+    flex-direction: row;
+}
+#text-input {
+    border: none;
+    width: 60vw;
+}
+#text-input:focus {
+    outline: none;
+}
