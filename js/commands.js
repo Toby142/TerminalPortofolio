@@ -11,10 +11,11 @@ help = [
     '<span class="command">find</span>   -      find me',
     '<span class="command">projects</span>   -  my projects',
     '<span class="command">skills</span>   -    my skills',
+    '<span class="command">banner</span>   -   see the banner',
 ];
 
 notFound = [
-    'command not found. For a list of commands, type <span class="command">help</span>.',
+    "command not found. For a list of commands, type <span class='command'>'help'</span>.",
 ]
 
 about = [
@@ -39,3 +40,26 @@ projects = [
     "I'm also working on a few other projects, which you can find here:",
     "<a href='https://tobiasvandeven.nl/work/work.html' target='_blank'>tobisavandeven.nl</a>",
 ];
+
+skills = [
+    "My go to programming language is <span class='hightlight'>JavaScript</span>, but I also have experience <span class='hightlight'>TypeScript</span> and <span class='hightlight'>PHP</span>.",
+    "for styling i use <span class='hightlight'>Tailwind</span> and <span class='hightlight'>CSS</span>.",
+    "I'm currently learning <span class='hightlight'>Angular Framework</span>, going kinda good so far.",
+    "Open to learning new languages and frameworks.",
+    "I'm also interested in <span style='font-style: italic; color: #ff9c9c;'>Machine Learning</span>, that is something i wanna check off one day.",
+];
+
+banner = [
+    "<pre>",
+    "       _~       ______   ______     ______     __  __       ",
+    "    _~ )_)_~   /\\__  _\\ /\   __ \\   /\\  == \\   /\\ \\_\\ \\      ",
+    "    )_))_))_)  \\/_/\\ \\/ \\ \\ \\/\\ \\  \\ \\  __<   \\ \\____ \\     ",
+    "    _!__!__!_     \\ \\_\\  \\ \\_____\\  \\ \\_____\\  \\/\\_____\\    ",
+    "    \______t/       \\/_/   \\/_____/   \\/_____/   \\/_____/    ",
+    "  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ",
+    "",
+    "Hey, you found my terminal!",
+    "To get started type <span class='command'>'help'</span> for a list of commands.",
+    "</pre>",
+]
+

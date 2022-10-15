@@ -3,12 +3,12 @@
     font-family: "Lucida Console", Monaco, monospace;
     font-size: medium;
     color: white;
-    line-height: 30px;
+    line-height: 25px;
 }
 body {
     padding: 0;
-    margin: 0;
-    background-color: black;    
+    margin: 20px;
+    background-color: #121212;    
 }
 
 p {
@@ -19,28 +19,44 @@ p {
     display: flex;
     flex-direction: row;
 }
+
 #text-input {
     border: none;
     width: 60vw;
     margin-left: 7px;
     background: transparent;
 }
+
 #text-input:focus {
     outline: none;
 }
 .command {
     color: #00FFFF;
+    text-shadow: 0 0 5px #00FFFF; 
 }
+
 .user {
     color: #00FF00;
 }
+
 .system {
     color: #ff9c9c; 
     margin: 25px;
 }
+
+.hightlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+pre {
+    line-height: 17px;
+}
+
 a {
     color:white;
 }
+
 a:hover {
     color: black;
     background: #00ffff;

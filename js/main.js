@@ -4,7 +4,7 @@ var visitorName = userName;
 
 document.getElementById('textInputLabel').innerHTML = visitorName + " ";
 
-// console log the value of input when pressed enter
+
 input.addEventListener('keyup', function(event) {
     if (input.value.length === 0) {
         return;
@@ -16,7 +16,6 @@ input.addEventListener('keyup', function(event) {
     }
 }); 
 
-// check the command
 function checkCommand(command) {
     switch (command) {
         case "help":
@@ -39,12 +38,26 @@ function checkCommand(command) {
             fillTerminal(input.value);
             fillTerminalCommand (find);
             break;
+        case "skills":
+            fillTerminal(input.value);
+            fillTerminalCommand (skills);
+            break;
+        case "banner":
+            fillTerminal(input.value);
+            fillTerminalCommand (banner);
+            break;
         default:
             fillTerminal(input.value);
             fillTerminalCommand (notFound);
             console.log("command not found");
     }
 }
+
+// a function that sets the default text in the terminal
+function setDefaultText() {
+    fillTerminalCommand (banner);
+}
+
 
 
 function fillTerminal(text) {
