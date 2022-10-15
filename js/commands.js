@@ -28,6 +28,9 @@ about = [
 find = [
     "On the Web:",
     "GitHub: <a href='https://github.com/Toby142' target='_blank'>github/Toby142</a>",
+    "Discord: <a href='https://discordapp.com/users/TOBY#9885' target='_blank'>discord/TOBY#9885</a>",
+    "Email: <a href='mailto:tobiasvandeven142@gmail.com' target='_blank'>mail/tobiasvandeven142@gmail.com</a>",
+    "LinkedIn: <a href='https://www.linkedin.com/in/tobias-van-de-ven-487998222/' target='_blank'>linkedin/tobias-vandeven</a>",
 ]
 
 projects = [
