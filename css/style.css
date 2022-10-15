@@ -2,6 +2,17 @@
     /* terminal font family */
     font-family: "Lucida Console", Monaco, monospace;
     font-size: medium;
+    color: white;
+    line-height: 30px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;    
+}
+
+p {
+    margin: 0;
 }
 
 .command-line {
@@ -11,7 +22,26 @@
 #text-input {
     border: none;
     width: 60vw;
+    margin-left: 7px;
+    background: transparent;
 }
 #text-input:focus {
     outline: none;
+}
+.command {
+    color: #00FFFF;
+}
+.user {
+    color: #00FF00;
+}
+.system {
+    color: #ff9c9c; 
+    margin: 25px;
+}
+a {
+    color:white;
+}
+a:hover {
+    color: black;
+    background: #00ffff;
 }
